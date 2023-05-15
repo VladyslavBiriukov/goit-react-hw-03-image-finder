@@ -12,12 +12,13 @@ export const SearchHeader = styled.header`
 
   padding: 25px 0;
   color: #fff;
-  background: radial-gradient(circle, rgba(7, 175, 66, 1) 0%, rgba(4, 80, 36, 1) 100%);
+  background: linear-gradient(90deg, rgba(194,251,215,1) 5%, rgba(255,255,255,1) 51%, rgba(194,251,215,1) 95%);
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 `;
 
 export const SearchForm = styled.form`
   display: flex;
+  border: 1px solid grey;
   align-items: center;
   width: 100%;
   max-width: 600px;
